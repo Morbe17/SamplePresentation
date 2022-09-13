@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       
-      <Image src='/landcruiser.png' alt='imgnotfound'width={400} height={250}/>
+      <Image src='/landcruiser.png' alt='imgnotfound'width={350} height={210}/>
       <Image src='/frame.png' alt='imgnotfound'  width={120} height={120}/>
       <h1 style={{color:'black'}}>Toyota Landcruiser</h1>
       <div style={{width:'100%',display:'flex', flexDirection:'column',alignItems:'flex-start', fontSize:'13px', maxWidth:'400px' }}>
