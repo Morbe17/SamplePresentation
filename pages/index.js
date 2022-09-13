@@ -24,12 +24,12 @@ export default function Home() {
       </div>
       
       <div style={{width:'100%', maxWidth:'300px', display:'flex', flexDirection:'row', justifyContent:'space-between', marginTop:'50px', color:'#000287'}}>
-        <a href='tel:809-540-3800' target="_blank">Llamar</a>
-        <a href='https://api.whatsapp.com/send?phone=18295215151&text=%C2%A1Hola!%20Quiero%20hacer%20cita%20de%20mantenimiento%20%E2%98%91%EF%B8%8F' target="_blank">Agendar Cita</a>
+        <a href='tel:809-540-3800' target="_blank" rel="noopener noreferrer">Llamar</a>
+        <a href='https://api.whatsapp.com/send?phone=18295215151&text=%C2%A1Hola!%20Quiero%20hacer%20cita%20de%20mantenimiento%20%E2%98%91%EF%B8%8F' target="_blank" rel="noopener noreferrer">Agendar Cita</a>
       </div>
       <div style={{width:'100%', maxWidth:'300px', display:'flex', flexDirection:'row', justifyContent:'space-between', marginTop:'20px', color:'#000287'}}>
-        <a href='mailto:email@santodomingo.com' target="_blank">Enviar Correo</a>
-        <a href='https://santodomingomotors.com.do' target="_blank">Visitar pagina web</a>
+        <a href='mailto:email@santodomingo.com' target="_blank" rel="noopener noreferrer">Enviar Correo</a>
+        <a href='https://santodomingomotors.com.do' target="_blank" rel="noopener noreferrer">Visitar pagina web</a>
       </div>
     </div>
   )
