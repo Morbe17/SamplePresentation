@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
-import Splash from '../src/components/splash'
+import Splash from '../src/components/Splash'
 import {useState} from 'react'
 
 
