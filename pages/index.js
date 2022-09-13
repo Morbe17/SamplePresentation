@@ -4,20 +4,33 @@ import Image from 'next/image'
 import Splash from '../src/components/Splash'
 import {useState} from 'react'
 
+const normalStyle = {
+  position:'absolute',
+  width:'100vw', 
+  height:'100vh', 
+  display:'flex', 
+  alignItems:'center', 
+  justifyContent:'center',
+  background:'white',
+  zIndex:1
+}
 
 export default function Home() {
-  const [render, setRender] = useState(1)
+  const [render, setRender] = useState(false)
 
   setTimeout(() =>{
-    setRender(2)
-  }, 3000)
+    setRender(true)
+  }, 1500)
 
-  if(render == 1){
-    return <Splash/>
-  }
   return (
     <div className={styles.container}>
-      <Image src = '/icon-delta.png' alt="imgnotfound" width={75} height={75}/>
+      <div style={normalStyle} className={render ? styles.fadeout : 'false'}>
+        {/* <Image src='/logotipoLoopWhite.gif' width={1080} height={608}/> */}
+        <Image src='/icon-delta.png' width={83} height={83}/>
+      </div>
+      <div style={{marginTop:'10px'}}>
+        <Image src = '/icon-delta.png' alt="imgnotfound" width={75} height={75} />
+      </div>
       <Image src='/landcruiser.png' alt='imgnotfound'width={350} height={210}/>
       <Image src='/frame.png' alt='imgnotfound'  width={100} height={100}/>
       <h1 style={{color:'black'}}>Toyota Landcruiser</h1>
@@ -39,7 +52,7 @@ export default function Home() {
         <a href='tel:8096203000' target="_blank" rel="noopener noreferrer">Llamar</a>
         <a href='https://api.whatsapp.com/send?phone=+18492580765&text=Hola!%20me%20interesa%20una%20cita' target="_blank" rel="noopener noreferrer">Agendar Cita</a>
       </div>
-      <div style={{width:'100%', maxWidth:'300px', display:'flex', flexDirection:'row', justifyContent:'space-between', marginTop:'20px', color:'#000287'}}>
+      <div style={{width:'100%', maxWidth:'300px', display:'flex', flexDirection:'row', justifyContent:'space-between', marginTop:'20px', color:'#000287', marginBottom:'10px'}}>
         <a href='mailto:email@deltacomercial.com.do' target="_blank" rel="noopener noreferrer">Enviar Correo</a>
         <a href='https://deltacomercial.com.do/' target="_blank" rel="noopener noreferrer">Visitar pagina web</a>
       </div>
