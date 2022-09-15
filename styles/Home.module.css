@@ -4,16 +4,27 @@
   flex-direction: column;
   align-items: center;
   background-color: white;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 }
 
 .titlea{
   
   color: #0075FF;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   margin-bottom: 2px;
+
+  border: 1px solid rgb(0, 183, 255);
+  border-radius: 5px;
+  width: 100%;
+  max-width: 450px;
+
+  padding:5px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  margin-bottom: 10px;
 }
 
 .data{

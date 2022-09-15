@@ -46,7 +46,6 @@ export default function Home() {
         <span className={styles.titlea}>KMS RECORRIDOS: <span className={styles.data}>  4,000 KMS</span></span>
         <span className={styles.titlea}>VIGENCIA DE GARANTIA: <span className={styles.data}> 0/01/2025 / 5000 KM</span></span>
         <span className={styles.titlea}>NUMERO DE CONTACTO: <span className={styles.data}> 809-853-1111</span></span>
-
       </div>
       
       <div style={{width:'100%', maxWidth:'300px', display:'flex', flexDirection:'row', justifyContent:'space-between', marginTop:'50px', color:'#000287'}}>
