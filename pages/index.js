@@ -36,7 +36,7 @@ export default function Home() {
       <h1 style={{color:'black'}}>Toyota Land Cruiser</h1>
       <div style={{width:'100%',display:'flex', flexDirection:'column',alignItems:'flex-start', fontSize:'13px', maxWidth:'400px' }}>
         <span className={styles.titlea}>NOMBRE: <span className={styles.data}>  OSCAR</span></span>
-        <span className={styles.titlea}>APELLIDO: <span className={styles.data}>  FLAMBERG</span></span>
+        <span className={styles.titlea}>APELLIDO: <span className={styles.data}>  ORSINI FLAMBERG</span></span>
         <span className={styles.titlea}>CEDULA / RNC: <span className={styles.data}>  001-00407777-1</span></span>
         <span className={styles.titlea}>MARCA: <span className={styles.data}> TOYOTA</span></span>
         <span className={styles.titlea}>MODELO: <span className={styles.data}>  LAND CRUISER</span></span>
