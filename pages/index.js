@@ -20,7 +20,7 @@ export default function Home() {
 
   setTimeout(() =>{
     setRender(true)
-  }, 1500)
+  }, 2000)
 
   return (
     <div className={styles.container}>
@@ -53,7 +53,7 @@ export default function Home() {
         <a href='tel:8096203000' target="_blank" rel="noopener noreferrer">Llamar</a>
         <a href='https://api.whatsapp.com/send?phone=+18492580765&text=Hola!%20me%20interesa%20una%20cita' target="_blank" rel="noopener noreferrer">Agendar Cita</a>
       </div>
-      <div style={{width:'100%', maxWidth:'300px', display:'flex', flexDirection:'row', justifyContent:'space-between', marginTop:'20px', color:'#000287', marginBottom:'10px'}}>
+      <div style={{width:'100%', maxWidth:'300px', display:'flex', flexDirection:'row', justifyContent:'space-between', marginTop:'20px', color:'#000287', marginBottom:'50px'}}>
         <a href='mailto:email@deltacomercial.com.do' target="_blank" rel="noopener noreferrer">Enviar Correo</a>
         <a href='https://deltacomercial.com.do/' target="_blank" rel="noopener noreferrer">Visitar pagina web</a>
       </div>
