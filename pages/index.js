@@ -26,7 +26,8 @@ export default function Home() {
     <div className={styles.container}>
       <div style={normalStyle} className={render ? styles.fadeout : 'false'}>
         {/* <Image src='/logotipoLoopWhite.gif' width={1080} height={608}/> */}
-        <Image src='/icon-delta.png' width={83} height={83}/>
+        {/* <Image src='/icon-delta.png' width={83} height={83}/> */}
+        <Image src='/logotipoLoopWhite.gif' width={1080} height={608}/> 
       </div>
       <div style={{marginTop:'10px'}}>
         <Image src = '/icon-delta.png' alt="imgnotfound" width={75} height={75} />
