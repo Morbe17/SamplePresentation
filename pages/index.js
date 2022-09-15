@@ -33,17 +33,18 @@ export default function Home() {
       </div>
       <Image src='/landcruiser.png' alt='imgnotfound'width={350} height={210}/>
       <Image src='/frame.png' alt='imgnotfound'  width={100} height={100}/>
-      <h1 style={{color:'black'}}>Toyota Landcruiser</h1>
+      <h1 style={{color:'black'}}>Toyota Land Cruiser</h1>
       <div style={{width:'100%',display:'flex', flexDirection:'column',alignItems:'flex-start', fontSize:'13px', maxWidth:'400px' }}>
         <span className={styles.titlea}>NOMBRE: <span className={styles.data}>  OSCAR</span></span>
-        <span className={styles.titlea}>APELLIDO: <span className={styles.data}>  ORSINI</span></span>
+        <span className={styles.titlea}>APELLIDO: <span className={styles.data}>  FLAMBERG</span></span>
         <span className={styles.titlea}>CEDULA / RNC: <span className={styles.data}>  001-00407777-1</span></span>
         <span className={styles.titlea}>MARCA: <span className={styles.data}> TOYOTA</span></span>
-        <span className={styles.titlea}>MODELO: <span className={styles.data}>  LANDCRUISER</span></span>
+        <span className={styles.titlea}>MODELO: <span className={styles.data}>  LAND CRUISER</span></span>
         <span className={styles.titlea}>AÑO: <span className={styles.data}> 2023</span></span>
         <span className={styles.titlea}>COLOR: <span className={styles.data}> METALLIC BLACK</span></span>
         <span className={styles.titlea}>CHASSIS: <span className={styles.data}> JVCX25362JSXXXX</span></span>
         <span className={styles.titlea}>KMS RECORRIDOS: <span className={styles.data}>  4,000 KMS</span></span>
+        <span className={styles.titlea}>VIGENCIA DE GARANTIA: <span className={styles.data}> 0/01/2025 / 5000 KM</span></span>
         <span className={styles.titlea}>NUMERO DE CONTACTO: <span className={styles.data}> 809-853-1111</span></span>
 
       </div>
